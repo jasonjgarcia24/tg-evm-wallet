@@ -37,6 +37,7 @@ Thumbs.db
 # Ignore built ts files
 dist/**/*
 
+.yarn
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
