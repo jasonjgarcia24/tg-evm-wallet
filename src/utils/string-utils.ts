@@ -1,0 +1,36 @@
+export const escapeString = (str: string): string => {
+    console.log(str);
+    str = str.replace(new RegExp("\\.", "g"), "\\.");
+    // console.log(".", str);
+    str = str.replace(new RegExp("\\*", "g"), "\\*");
+    // console.log("*", str);
+    str = str.replace(new RegExp("\\+", "g"), "\\+");
+    // console.log("+", str);
+    str = str.replace(new RegExp("\\?", "g"), "\\?");
+    // console.log("?", str);
+    str = str.replace(new RegExp("\\$", "g"), "\\$");
+    // console.log("$", str);
+    str = str.replace(new RegExp("\\(", "g"), "\\(");
+    // console.log("(", str);
+    str = str.replace(new RegExp("\\)", "g"), "\\)");
+    // console.log(")", str);
+    str = str.replace(new RegExp("\\{", "g"), "\\{");
+    // console.log("{", str);
+    str = str.replace(new RegExp("\\}", "g"), "\\}");
+    // console.log("}", str);
+    str = str.replace(new RegExp("\\-", "g"), "\\-");
+    // console.log("-", str);
+    str = str.replace(new RegExp("\\^[1]", "g"), "\\^");
+    // console.log("^", str);
+    str = str.replace(new RegExp("\\|", "g"), "\\|");
+    // console.log("|", str);
+    str = str.replace(new RegExp("\\/", "g"), "\\/");
+    // console.log("/", str);
+    str = str.replace(new RegExp("\\`", "g"), "\\`");
+    // console.log("`", str);
+    str = str.replace(new RegExp("\\<", "g"), "\\<");
+    str = str.replace(new RegExp("\\>", "g"), "\\>");
+    str = str.replace(new RegExp("\\=", "g"), "\\=");
+
+    return str;
+};

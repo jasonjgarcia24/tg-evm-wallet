@@ -1,0 +1,56 @@
+{
+    "ethereum_goerli": {
+        "mockMarketAddress": "0x19a191631a6206d57e60D309aF3695471E0AB63d",
+        "safeDelegateProxyAddress": "0xe0e98025d26271042e031ad1658f4a5838a556ab ",
+        "safe": {
+            "0x8f058342605F6D819F1033e5e498dEc37a892e81": {
+                "safeAddress": "0x6a5aF5dB86DeD4E1bDa6F97F9d37Fb2de2939424",
+                "eoaOwnerAddress": "0x8f058342605F6D819F1033e5e498dEc37a892e81"
+            }
+        },
+        "nfts": {
+            "0xd23A9aF27a59d71bDD89B612Ae62eb07DC99bB82": {
+                "tokenIds": [0, 1, 2]
+            }
+        }
+    },
+    "optimism_goerli": {
+        "mockMarketAddress": "0x00...",
+        "safeDelegateProxyAddress": "0x00...",
+        "safe": {
+            "safeAddress": "0x00...",
+            "eoaOwnerAddress": "0x00..."
+        },
+        "nfts": {
+            "0x00...": {
+                "tokenIds": []
+            }
+        }
+    },
+    "base_goerli": {
+        "mockMarketAddress": "0x00...",
+        "safeDelegateProxyAddress": "0x00...",
+        "safe": {
+            "safeAddress": "0x00...",
+            "eoaOwnerAddress": "0x00..."
+        },
+        "nfts": {
+            "0x00...": {
+                "tokenIds": []
+            }
+        }
+    },
+    "zora_goerli": {
+        "mockMarketAddress": "0x00...",
+        "safeDelegateProxyAddress": "0x00...",
+        "safe": {
+            "safeAddress": "0x00...",
+            "eoaOwnerAddress": "0x00..."
+        },
+        "nfts": {
+            "0x00...": {
+                "tokenIds": []
+            }
+        }
+    }
+}
