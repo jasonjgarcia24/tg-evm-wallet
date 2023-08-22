@@ -1,0 +1,16 @@
+{
+	"browse_nft": "Browse NFTs on following chains",
+	"browse_chain": {
+		"zora": "Browse Zora",
+		"base": "Browse Base",
+		"opt": "Browse Optimism"
+	},
+	"time_lines": {
+		"1h": "1h Trending NFTs",
+		"6h": "6h Trending NFTs",
+		"24h": "24h Trending NFTs"
+	},
+	"top_nfts_description": "Please select a time frame to view the top 10 trending NFTs on {chain}!",
+	"trending_description": "Trending NFTs in the last {timeline}",
+	"collection_data_format": "\n\n{index}. Collection Name: (ENTER COLLECTION NAME)\nMint Price: {mint_price}\n{timeline} Volume: {volume} ETH\nCurrent Floor Price: {floor_price} ETH"
+}

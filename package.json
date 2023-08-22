@@ -1,0 +1,33 @@
+{
+	"name": "intgr-wallet",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Sarat Angajala",
+	"license": "MIT",
+	"packageManager": "yarn@3.6.1",
+	"scripts": {
+		"format": "prettier 'src/**/*.{test.ts,ts,json}' --write",
+		"setup-local": "sh ./scripts/local.sh",
+		"clean": "rimraf dist & rimraf coverage",
+		"build": "yarn clean && tsc",
+		"dev": "nodemon ./src/index.ts",
+		"start": "yarn build && node dist"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.196",
+		"@types/node": "^20.4.8",
+		"ganache": "^7.9.0",
+		"nodemon": "^3.0.1",
+		"prettier": "^3.0.1",
+		"rimraf": "^5.0.1",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.1.6"
+	},
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"ethers": "^5.0.0",
+		"grammy": "^1.17.2",
+		"lodash": "^4.17.21",
+		"mongoose": "^7.4.2"
+	}
+}
